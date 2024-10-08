@@ -1,0 +1,81 @@
+body {
+  background: linear-gradient(180deg, #374151 0%, #111827 100%);
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+}
+.logo {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.09px;
+}
+.logo span {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background: #4b5563;
+  box-shadow: 0px 15px 30px 0px #00000026;
+  text-align: center;
+  margin-right: 11px;
+}
+
+.link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+nav .link {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.75px;
+}
+
+.search {
+  border-radius: 100px;
+  background: rgba(31, 41, 55, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.75px;
+  border: none;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 38px;
+  text-align: center;
+}
+
+.profile__name {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+}
+.opacity {
+  color: rgba(255, 255, 255, 0.6);
+}
+.profile__about {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.text {
+  font-weight: 400;
+}
+.text_l {
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.text_m {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.rights {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+}
