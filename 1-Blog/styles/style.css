@@ -9,11 +9,18 @@ body {
   font-family: "Roboto", sans-serif;
   color: #ffffff;
 }
+
+header {
+    max-width: 1080px;
+    margin: 0 auto;
+}
 .logo {
   font-size: 18px;
   font-weight: 400;
   line-height: 21.09px;
+  margin-right: 77px;
 }
+
 .logo span {
   display: inline-block;
   width: 35px;
@@ -33,6 +40,10 @@ nav .link {
   font-size: 16px;
   font-weight: 400;
   line-height: 18.75px;
+}
+
+ul {
+    list-style-type: none;
 }
 
 main {
