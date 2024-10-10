@@ -4,44 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Мой блог</title>
+    <link rel="stylesheet" href="./styles/style.css" />
 </head>
 <body>
     <header>
-      <a href="#">
+      <a href="#" class="link logo">
           <span>B</span>
           Мой блог
       </a>
         <nav>
           <ul>
-            <li><a href="#">HTML и CSS</a></li>
-            <li><a href="#">Frontend</a></li>
-            <li><a href="#">Backend</a></li>
+            <li><a href="#" class="link">HTML и CSS</a></li>
+            <li><a href="#" class="link">Frontend</a></li>
+            <li><a href="#" class="link">Backend</a></li>
           </ul>
         </nav>
         <form action="#" method="get">
           <img src="./assets/icons/search.svg" alt="Поиск"/>
-          <input type="text" placeholder="Поиск" />
+          <input type="text" placeholder="Поиск" class="search" />
         </form>
       </header>
       <main>
         <div>
-          <p>
+          <p class="heading opacity">
               <span>Frontend</span>
               <span>&bull;</span>
               <span>12 мая 2024</span>
           </p>
         <h1>Теория цвета - Как цвет влияет на поведение потребителей</h1>
-        <div>
+        <div class="profile">
           <img src="./assets/images/photo_profile.png" alt="" />
           <div>
-            <p>Наталья Васильева</p>
-            <p>Разработчик</p>
+            <p class="profile__name">Наталья Васильева</p>
+            <p class="profile__about opacity">Разработчик</p> 
           </div>
         </div>
         <article>
           <img src="./assets/images/article_img.png" alt="экран монитора с цветной картинкой" />
         <section>
-        <p>
+        <p class="text text_l">
           Теория цвета — это особенности эмоционального восприятия человеком тех или иных
           цветовых решений. Цвета и различные их комбинации влияют на психику человека, а
           значит, во многом определяют его поведение. Маркетологи и веб-дизайнеры хорошо
@@ -49,13 +50,13 @@
           внимание пользователей, сформировать положительное отношение к продукту,
           подтолкнуть посетителей к совершению целевых действий, повысить конверсию.
         </p>
-        <p>
+        <p class="text text_m">
           Универсального ответа на вопрос, как тот или иной цвет влияет на разных людей,
           нет. Эмоциональная и поведенческая реакция каждого человека зависит от личного
           опыта. Вместе с тем можно выделить определенные закономерности влияния цветов на
           поведение пользователей.
         </p>
-        <p>
+        <p class="text text_m">
           В исследовании «Влияние цвета на маркетинг» (Impact of color on marketing)
           говорится, что использование разных цветов может существенно влиять на настроение
           и поведение потребителей. Утверждается, что от 60 до 90% покупателей (в
@@ -67,7 +68,7 @@
         
       </main>
       <footer>
-          <p>Все права защищены (c) 2024</p>
+          <p class="rights opacity">Все права защищены (c) 2024</p>
       </footer>
 </body>
 </html>
