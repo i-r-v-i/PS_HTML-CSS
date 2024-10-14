@@ -1,16 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Finio</title>
-    <link rel="stylesheet" href="./styles/style.css">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
     <header></header>
     <main>
-        
+      <section class="hero"></section>
+      <section class="analysis"></section>
+      <section class="accounting"></section>
+      <section class="mobile"></section>
+      <section class="tariffs">
+        <h2 class="heading">Тарифы</h2>
+        <p class="text">Все тарифы имеют полный функционал и отличаются только количеством месяцев и выгодой</p>
+        <ul class="cardList">
+            <li class="card">
+                <h3 class="card__title">1 месяц</h3>
+                <p class="text">Тариф подойдёт тем, кто ведёт краткосрочные проекты</p>
+                <div class="card__priceBlock">
+                    <p class="card__price">Общая стоимость</p>
+                    <p class="card__price">1 990 ₽</p>
+                    <p class="card__price">Ваша выгода</p>
+                    <p class="card__price">0 ₽</p>
+                    <p class="card__price">Стоимость месяца</p>
+                    <p class="card__price">1 990 ₽/мес</p>
+                </div>
+                <button class="button">Бесплатно 14 дней</button>
+            </li>
+            <li class="card"></li>
+            <li class="card"></li>
+        </ul>
+      </section>
+      <section class="feedback"></section>
     </main>
     <footer></footer>
-</body>
+  </body>
 </html>

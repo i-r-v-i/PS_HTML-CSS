@@ -1,0 +1,13 @@
+:root {
+  --font-family: Inter, sans-serif;
+  --bg-color-light: #fff;
+  --bg-color-bright: #357efe;
+  --text-color-light: #fff;
+  --text-color-dark: #000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
