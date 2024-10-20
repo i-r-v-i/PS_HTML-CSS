@@ -11,8 +11,14 @@ body {
 }
 
 header {
+    padding-top: 72px;
     max-width: 1080px;
     margin: 0 auto;
+    display: flex;
+}
+.logoContainer {
+    /* display: flex;
+    gap: 11px; */
 }
 .logo {
   font-size: 18px;
@@ -22,12 +28,13 @@ header {
 }
 
 .logo span {
-  display: inline-block;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   width: 35px;
   height: 35px;
   background: #4b5563;
   box-shadow: 0px 15px 30px 0px #00000026;
-  text-align: center;
   margin-right: 11px;
 }
 
@@ -44,6 +51,10 @@ nav .link {
 
 ul {
     list-style-type: none;
+    display: flex;
+    gap: 52px;
+    padding-top: 7px;
+
 }
 
 main {
@@ -53,6 +64,7 @@ main {
 
 form {
   position: relative;
+  margin-left: auto;
 }
 
 form img {
@@ -90,7 +102,14 @@ h1 {
 
 .profile {
   margin-bottom: 28px;
-  text-align: center;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+
+.profile img {
+    width: 50px;
+    height: 50px;
 }
 .profile__name {
   font-size: 16px;
