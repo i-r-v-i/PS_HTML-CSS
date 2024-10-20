@@ -8,21 +8,18 @@ body {
   background: linear-gradient(180deg, #374151 0%, #111827 100%);
   font-family: "Roboto", sans-serif;
   color: #ffffff;
+  font-weight: 400;
 }
 
 header {
-    padding-top: 72px;
-    max-width: 1080px;
-    margin: 0 auto;
-    display: flex;
+  padding-top: 72px;
+  max-width: 1080px;
+  margin: 0 auto;
+  display: flex;
 }
-.logoContainer {
-    /* display: flex;
-    gap: 11px; */
-}
+
 .logo {
   font-size: 18px;
-  font-weight: 400;
   line-height: 21.09px;
   margin-right: 77px;
 }
@@ -45,16 +42,14 @@ header {
 
 nav .link {
   font-size: 16px;
-  font-weight: 400;
   line-height: 18.75px;
 }
 
 ul {
-    list-style-type: none;
-    display: flex;
-    gap: 52px;
-    padding-top: 7px;
-
+  list-style-type: none;
+  display: flex;
+  gap: 52px;
+  padding-top: 7px;
 }
 
 main {
@@ -72,32 +67,43 @@ form img {
   left: 18px;
   top: 13px;
 }
+form input::placeholder {
+  line-height: normal;
+  color: #a3a7ae;
+}
 
+form input:focus-visible {
+  outline: 1px solid #4b5563;
+}
 .search {
   border-radius: 100px;
   background: rgba(31, 41, 55, 0.6);
   font-size: 16px;
-  font-weight: 400;
   line-height: 18.75px;
   border: none;
   width: 224px;
   height: 40px;
   margin-bottom: 69px;
   padding-left: 49px;
+  color: #fff;
+  border: 0;
+  outline: none;
+  caret-color: gray;
 }
 
 .heading {
   margin-bottom: 15px;
   text-align: center;
+
 }
 
 h1 {
   font-size: 24px;
-  font-weight: 400;
   line-height: 38px;
   text-align: center;
   max-width: 525px;
   margin: 0 auto 30px;
+  font-weight: 400;
 }
 
 .profile {
@@ -108,12 +114,11 @@ h1 {
 }
 
 .profile img {
-    width: 50px;
-    height: 50px;
+  width: 50px;
+  height: 50px;
 }
 .profile__name {
   font-size: 16px;
-  font-weight: 400;
   line-height: 28px;
 }
 .opacity {
@@ -121,7 +126,6 @@ h1 {
 }
 .profile__about {
   font-size: 14px;
-  font-weight: 400;
   line-height: 28px;
 }
 
@@ -134,7 +138,6 @@ section {
   margin: 0 auto;
 }
 .text {
-  font-weight: 400;
   margin-bottom: 40px;
 }
 .text_l {
@@ -149,7 +152,6 @@ section {
 
 .rights {
   font-size: 16px;
-  font-weight: 400;
   line-height: 28px;
   text-align: center;
   margin: 75px 0 77px;
