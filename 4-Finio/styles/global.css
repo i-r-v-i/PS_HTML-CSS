@@ -20,3 +20,7 @@ body {
     background: var(--bg-color-light);
     font-family: var(--font-family);
 }
+
+main {
+  padding-bottom: 80px;
+}

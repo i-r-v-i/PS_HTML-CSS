@@ -1,14 +1,3 @@
-.tariffs {
-  max-width: 1156px;
-  margin: 0 auto;
-}
-
-@media screen and (max-width: 900px) {
-  .tariffs {
-    padding: 0 24px;
-  }
-}
-
 .tariffs__description {
   margin-top: 24px;
   margin-bottom: 40px;
