@@ -4,10 +4,19 @@
   --bg-color-bright: #357efe;
   --text-color-light: #fff;
   --text-color-dark: #000;
+  --text-color-grey: #4E5D7C80;
+  --text-color-bright: #357EFE;
+
+
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+    background: var(--bg-color-light);
+    font-family: var(--font-family);
 }

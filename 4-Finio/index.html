@@ -10,7 +10,9 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/components.css" />
+    <link rel="stylesheet" href="./styles/tariffs.css" />
   </head>
   <body>
     <header></header>
@@ -21,23 +23,74 @@
       <section class="mobile"></section>
       <section class="tariffs">
         <h2 class="heading">Тарифы</h2>
-        <p class="text">Все тарифы имеют полный функционал и отличаются только количеством месяцев и выгодой</p>
+        <p class="text text_title text_color-grey mt-24 mb-40">Все тарифы имеют полный функционал и отличаются только количеством месяцев и выгодой</p>
         <ul class="cardList">
             <li class="card">
+              <div class="benefit benefit_no"></div>
                 <h3 class="card__title">1 месяц</h3>
-                <p class="text">Тариф подойдёт тем, кто ведёт краткосрочные проекты</p>
-                <div class="card__priceBlock">
+                <p class="text text_color-grey">Тариф подойдёт тем, кто ведёт краткосрочные проекты</p>
+                <div class="card__price-container">
+                  <div class="card__price-block mb-8">
                     <p class="card__price">Общая стоимость</p>
                     <p class="card__price">1 990 ₽</p>
+                  </div>
+                    <div class="card__line"></div>
+                    <div class="card__price-block mb-8 mt-8">
                     <p class="card__price">Ваша выгода</p>
                     <p class="card__price">0 ₽</p>
+                  </div>
+                  <div class="card__line"></div>
+                  <div class="card__price-block mt-8">
                     <p class="card__price">Стоимость месяца</p>
                     <p class="card__price">1 990 ₽/мес</p>
+                  </div>
                 </div>
-                <button class="button">Бесплатно 14 дней</button>
+                <button class="button button_blue">Бесплатно 14 дней</button>
             </li>
-            <li class="card"></li>
-            <li class="card"></li>
+            <li class="card">
+              <div class="benefit">Выгода <span>25%</span></div>
+              <h3 class="card__title">6 месяцев</h3>
+              <p class="text text_color-grey">Тариф подойдёт для тех, кто уверенно ведёт финансовый учёт </p>
+              <div class="card__price-container">
+                <div class="card__price-block mb-8">
+                  <p class="card__price">Общая стоимость</p>
+                  <p class="card__price ">8 940 ₽</p>
+                </div>
+                  <div class="card__line"></div>
+                  <div class="card__price-block mb-8 mt-8">
+                  <p class="card__price">Ваша выгода</p>
+                  <p class="card__price card__sum card__benefit">3 000 ₽</p>
+                </div>
+                <div class="card__line"></div>
+                <div class="card__price-block mt-8">
+                  <p class="card__price">Стоимость месяца</p>
+                  <p class="card__price">1 490 ₽/мес</p>
+                </div>
+              </div>
+              <button class="button button_blue">Бесплатно 14 дней</button>
+          </li>
+            <li class="card card_brigth">
+              <div class="benefit">Выгода <span>50%</span></div>
+              <h3 class="card__title">12 месяцев</h3>
+              <p class="text text_color-grey-60">Тариф подойдёт для тех, кто уверенно ведёт финансовый учёт и хочет сэкономить</p>
+              <div class="card__price-container card__price-container_bright">
+                <div class="card__price-block mb-8">
+                  <p class="card__price">Общая стоимость</p>
+                  <p class="card__price ">11 880 ₽</p>
+                </div>
+                  <div class="card__line"></div>
+                  <div class="card__price-block mb-8 mt-8">
+                  <p class="card__price">Ваша выгода</p>
+                  <p class="card__price card__sum card__benefit">12 000 ₽</p>
+                </div>
+                <div class="card__line"></div>
+                <div class="card__price-block mt-8">
+                  <p class="card__price">Стоимость месяца</p>
+                  <p class="card__price ">990 ₽/мес</p>
+                </div>
+              </div>
+              <button class="button button_white">Бесплатно 14 дней</button>
+          </li>
         </ul>
       </section>
       <section class="feedback"></section>
