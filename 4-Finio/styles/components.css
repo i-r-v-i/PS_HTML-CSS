@@ -21,6 +21,8 @@
     font-size: 36px;
     font-weight: 600;
     line-height: 43.2px;
+    text-align: left;
+    margin-top: 48px;
   }
 }
 
@@ -33,7 +35,11 @@
 .text_title {
   text-align: center;
 }
-
+@media screen and (max-width: 640px) {
+  .text_title {
+    text-align: left;
+  }
+}
 .text_color-grey {
   color: var(--text-color-grey);
 }

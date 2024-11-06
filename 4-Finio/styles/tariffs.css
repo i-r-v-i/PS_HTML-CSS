@@ -2,7 +2,11 @@
   margin-top: 24px;
   margin-bottom: 40px;
 }
-
+@media screen and (max-width: 640px) {
+  .tariffs__description {
+    margin-bottom: 32px;
+  }
+}
 .cardList {
   list-style-type: none;
   display: grid;
