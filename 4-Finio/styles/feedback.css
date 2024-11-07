@@ -3,33 +3,37 @@
 }
 
 .feedback-slider {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 @media screen and (max-width: 900px) {
   .feedback-slider {
-    display: flex;
-    align-items: center;
-    /* justify-content: center; */
-    flex-direction: column-reverse;
-    /* background-color: var(--bg-color-bright); */
+    grid-template-columns: minmax(369px, 522px);
+    grid-template-rows: auto 1fr;
+    justify-content: center;
+    margin: 0 150px;
   }
 }
 
-.feedback-slider__left {
+@media screen and (max-width: 480px) {
+  .feedback-slider {
+    grid-template-columns: minmax(328px, 369px);
+    margin: 0;
+  }
+}
+
+.feedback-slider__text {
   background: var(--bg-color-bright);
   border-radius: 8px 0 0 8px;
-  max-width: 574px;
-  flex-grow: 1;
   position: relative;
-  flex-shrink: 1;
   box-shadow: 0px 0px 32px 0px #4e5d7c29;
 }
 
 @media screen and (max-width: 900px) {
-  .feedback-slider__left {
-    width: 328px;
+  .feedback-slider__text {
     border-radius: 0 0 8px 8px;
+    order: 2;
   }
 }
 
@@ -68,23 +72,21 @@
   display: block;
   font-weight: 500;
 }
-.feedback-slider__right {
-  flex-grow: 1;
+
+.feedback-slider__foto {
   background-image: url(../assets/img/feedback_foto.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 0 8px 8px 0;
   position: relative;
-  flex-basis: 328px;
-  flex-shrink: 1;
 }
 @media screen and (max-width: 900px) {
-  .feedback-slider__right {
+  .feedback-slider__foto {
     border-radius: 8px 8px 0 0;
-    background-color: var(--bg-color-bright);
     background-image: none;
-    flex-basis: 248px;
+    background-color: var(--bg-color-bright);
+    order: 1;
   }
 }
 .feedback-slider__img {
@@ -96,8 +98,8 @@
 @media screen and (max-width: 900px) {
   .feedback-slider__img {
     display: block;
-    height: 249px;
-    width: 328px;
+    width: 100%;
+    aspect-ratio: 1.3;
     border-radius: 8px;
   }
 }
@@ -133,27 +135,24 @@
 }
 
 .pagination {
-    display: none;
+  display: none;
 }
 
 @media screen and (max-width: 900px) {
-    .pagination {
-        display: flex;
-        justify-content: center;
-        gap: 8px;
-        margin-bottom: 48px;
-
-    }
-    .pagination-button {
-        width: 8px;
-        height: 8px;
-        background: #FFFFFF80;
-        border-radius: 50%;
-        border: none;
-      }
-      .pagination-button_active {
-        background: var(--bg-color-light);
-      }
-
+  .pagination {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 48px;
+  }
+  .pagination-button {
+    width: 8px;
+    height: 8px;
+    background: #ffffff80;
+    border-radius: 50%;
+    border: none;
+  }
+  .pagination-button_active {
+    background: var(--bg-color-light);
+  }
 }
-
