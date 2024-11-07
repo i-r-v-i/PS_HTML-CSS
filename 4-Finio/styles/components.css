@@ -16,7 +16,7 @@
   margin-top: 80px;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 480px) {
   .heading {
     font-size: 36px;
     font-weight: 600;
@@ -35,7 +35,7 @@
 .text_title {
   text-align: center;
 }
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 480px) {
   .text_title {
     text-align: left;
   }

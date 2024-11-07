@@ -15,7 +15,14 @@
   justify-content: center;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 900px) {
+  .cardList {
+    grid-template-columns: minmax(369px, 1fr);
+    margin: 0 150px;
+  }
+}
+
+@media screen and (max-width: 480px) {
   .cardList {
     grid-template-columns: minmax(328px, 369px);
   }
@@ -114,6 +121,15 @@
 .card__price-block {
   display: inline-grid;
   grid-template-columns: 170px auto;
+
+}
+
+@media screen and (max-width: 900px) {
+  .card__price-block {
+    display: grid;
+    grid-template-columns: minmax(170px, calc(100% - 110px)) max-content;
+   justify-items: start;
+  }
 }
 .card__sum {
   background: none;
