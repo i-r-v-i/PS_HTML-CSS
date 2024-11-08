@@ -1,0 +1,97 @@
+.support {
+  background-color: var(--bg-color-bright);
+  width: 100%;
+  border-radius: 16px;
+  display: grid;
+  grid-template-columns: minmax(369px, 1fr) 1fr;
+  padding-left: 95px;
+  gap: 74px;
+}
+
+.support_img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  object-position: bottom;
+}
+
+@media screen and (max-width: 1240px) {
+  .support {
+    max-width: 640px;
+    grid-template-columns: minmax(327px, 1fr);
+    grid-template-rows: min-content minmax(279px 460px);
+    padding: 0 24px 0;
+    gap: 0;
+  }
+
+  .support_img {
+    object-fit: cover;
+    aspect-ratio: 1.13;
+    object-position: bottom;
+    object-fit: contain;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .support {
+    border-radius: 0;
+  }
+}
+@media screen and (max-width: 1240px) {
+  .support__foto {
+    order: 2;
+  }
+}
+.support__text {
+  padding-top: 80px;
+  padding-bottom: 40px;
+  order: 1;
+}
+
+@media screen and (max-width: 900px) {
+  .support__text {
+    padding-top: 64px;
+    padding-bottom: 32px;
+  }
+}
+
+.support__title {
+  margin-bottom: 24px;
+  text-align: left;
+}
+
+.support__text-container {
+  display: flex;
+  max-width: 411px;
+  flex-direction: column;
+  gap: 40px;
+}
+@media screen and (max-width: 480px) {
+  .support__text-container {
+    gap: 32px;
+  }
+}
+.support__contacts {
+  display: grid;
+  grid-template-columns: 32px auto;
+  grid-template-rows: repeat(3, 32px);
+  gap: 16px;
+  align-items: center;
+}
+
+.contacts__icon {
+  width: 32px;
+  height: 32px;
+}
+.tg {
+  background-image: url(../assets/svg/tg.svg);
+}
+
+.whats {
+  background-image: url(../assets/svg/whats.svg);
+}
+
+.email {
+  height: 23px;
+  background-image: url(../assets/svg/email.svg);
+}

@@ -1,28 +1,51 @@
 .section {
-  max-width: 1156px;
   margin: 0 auto;
 }
+
+.section_1156 {
+  max-width: 1156px;
+}
+
+.section_1392 {
+  max-width: 1392px;
+}
+
 @media screen and (max-width: 900px) {
   .section {
     padding: 0 24px;
   }
 }
 .heading {
-  font-size: 48px;
   font-weight: 600;
-  line-height: 57.6px;
   text-align: center;
+}
+.heading_h2 {
+  font-size: 48px;
+  line-height: 57.6px;
   color: var(--text-color-dark);
   margin-top: 80px;
 }
 
 @media screen and (max-width: 480px) {
-  .heading {
+  .heading_h2 {
     font-size: 36px;
     font-weight: 600;
     line-height: 43.2px;
     text-align: left;
     margin-top: 48px;
+  }
+}
+
+.heading_h3 {
+  font-size: 40px;
+  line-height: 48px;
+}
+@media screen and (max-width: 480px) {
+  .heading_h3 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43.2px;
+    text-align: left;
   }
 }
 
@@ -42,6 +65,10 @@
 }
 .text_color-grey {
   color: var(--text-color-grey);
+}
+
+.text_color-light {
+  color: var(--text-color-light);
 }
 
 .mt-24 {
