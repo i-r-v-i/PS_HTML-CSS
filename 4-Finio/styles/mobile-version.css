@@ -1,0 +1,24 @@
+.mobile-version__description {
+    margin-top: 24px;
+    margin-bottom: 40px;
+    padding: 0 40px;
+  }
+
+  @media screen and (max-width: 600px) {
+    .mobile-version__description {
+        padding: 0 ;
+    }
+  }
+  .mobile-version__img {
+    max-width: 1128px;
+    width: 100%;
+    margin-bottom: 80px;
+  }
+
+  @media screen and (max-width: 460px) {
+    .mobile-version__img {
+      width: 677.7px;
+      height: 450px;
+      overflow: hidden;
+    }
+  }
