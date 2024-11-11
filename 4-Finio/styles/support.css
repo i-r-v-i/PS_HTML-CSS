@@ -19,14 +19,13 @@
   .support {
     max-width: 640px;
     grid-template-columns: minmax(327px, 1fr);
-    grid-template-rows: min-content minmax(279px 460px);
-    padding: 0 24px 0;
+    grid-template-rows: min-content 279px;
+    padding: 0;
     gap: 0;
   }
 
   .support_img {
-    object-fit: cover;
-    object-position: bottom;
+    padding: 0 24px 0;
     object-fit: contain;
   }
 }
@@ -57,6 +56,7 @@
 .support__title {
   margin-bottom: 24px;
   text-align: left;
+  padding: 0 24px 0;
 }
 
 .support__text-container {
@@ -68,6 +68,7 @@
 @media screen and (max-width: 480px) {
   .support__text-container {
     gap: 32px;
+    padding: 0 24px 0;
   }
 }
 .support__contacts {

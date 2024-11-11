@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./styles/global.css" />
     <link rel="stylesheet" href="./styles/components.css" />
     <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/security.css" />
     <link rel="stylesheet" href="./styles/mobile-version.css" />
     <link rel="stylesheet" href="./styles/support.css" />
     <link rel="stylesheet" href="./styles/tariffs.css" />
@@ -25,29 +26,68 @@
         <p class="logo logo_header">finio</p>
         <nav class="header__nav nav">
           <ul class="nav__links">
-            <li class="nav__item"><a class="link link_header" href="#">Возможности</a></li>
-            <li class="nav__item"><a class="link link_header" href="#tariffs">Тарифы</a></li>
-            <li class="nav__item"><a class="link link_header" href="#feedback">Отзывы</a></li>
-            <li class="nav__item"><a class="link link_header" href="#support">Поддержка клиентов</a></li>
+            <li class="nav__item">
+              <a class="link link_header" href="#">Возможности</a>
+            </li>
+            <li class="nav__item">
+              <a class="link link_header" href="#tariffs">Тарифы</a>
+            </li>
+            <li class="nav__item">
+              <a class="link link_header" href="#feedback">Отзывы</a>
+            </li>
+            <li class="nav__item">
+              <a class="link link_header" href="#support">Поддержка клиентов</a>
+            </li>
           </ul>
         </nav>
         <button class="button button_white header__btn">Личный кабинет</button>
         <div class="burger"></div>
       </div>
-     
+
       <div class="line header__line"></div>
     </header>
     <main>
       <section class="hero"></section>
       <section class="analysis"></section>
       <section class="accounting"></section>
-      <section class="security"></section>
+      <section class="security section section_1392">
+        <ul class="security__list">
+          <li class="security__item">
+            <div class="security__icon server"></div>
+            <h4 class="security__name">Надёжные сервера на территории России</h4>
+            <p class="text security__desc">
+              Никакие события не скажутся на бесперебойной работе сервиса.
+            </p>
+          </li>
+          <li class="security__item">
+            <div class="security__icon ssl"></div>
+            <h4 class="security__name">Используем 256-битное SSL-шифрование</h4>
+            <p class="text security__desc">
+              Ваши данные не могут быть перехвачены, даже при использовании открытых Wi-Fi
+              сетей.
+            </p>
+          </li>
+          <li class="security__item ">
+            <div class="security__icon safety"></div>
+            <h4 class="security__name">Не передаём ваши данные 3-им лицам</h4>
+            <p class="text security__desc">
+              Все данные о доходах и расходах компании видны только вам и тем, кому вы
+              открыли доступ.
+            </p>
+          </li>
+        </ul>
+      </section>
       <section class="mobile-version section section_1156">
         <h2 class="heading heading_h2">Мобильная версия</h2>
         <p class="text text_title text_color-grey mobile-version__description">
-          Пользоваться всем функционалом сервиса удобно в&nbsp;любом месте и&nbsp;с&nbsp;любых устройств
+          Пользоваться всем функционалом сервиса удобно в&nbsp;любом месте
+          и&nbsp;с&nbsp;любых устройств
         </p>
-        <img src="./assets/img/mobile-version-img.png" alt="картинка приложения на экране телефона в сравнении с декстопной версией" class="mobile-version__img">
+        <img
+          src="./assets/img/mobile-version-img.png"
+          alt="картинка приложения на экране телефона в сравнении с декстопной версией"
+          class="mobile-version__img"
+        />
       </section>
       <section class="support section section_1392" id="support">
         <div class="support__foto">
@@ -202,9 +242,15 @@
             </p>
           </div>
           <ul class="links links-1">
-            <li class="link-item text"><a href="#" class="link link_footer">Возможности </a></li>
-            <li class="link-item text"><a href="#tariffs" class="link link_footer">Тарифы</a></li>
-            <li class="link-item text"><a href="#feedback" class="link link_footer">Отзывы</a></li>
+            <li class="link-item text">
+              <a href="#" class="link link_footer">Возможности </a>
+            </li>
+            <li class="link-item text">
+              <a href="#tariffs" class="link link_footer">Тарифы</a>
+            </li>
+            <li class="link-item text">
+              <a href="#feedback" class="link link_footer">Отзывы</a>
+            </li>
             <li class="link-item text">
               <a href="#support" class="link link_footer">Поддержка клиентов</a>
             </li>
@@ -216,8 +262,12 @@
             <li class="link-item text">
               <a href="#" class="link link_footer">Пользовательское соглашение</a>
             </li>
-            <li class="link-item text"><a href="#" class="link link_footer"> Оплата и возврат</a></li>
-            <li class="link-item text"><a href="#" class="link link_footer"> Договор оферта</a></li>
+            <li class="link-item text">
+              <a href="#" class="link link_footer"> Оплата и возврат</a>
+            </li>
+            <li class="link-item text">
+              <a href="#" class="link link_footer"> Договор оферта</a>
+            </li>
           </ul>
           <div class="footer__column">
             <ul class="footer__author text links">

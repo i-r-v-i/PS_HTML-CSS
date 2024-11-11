@@ -10,7 +10,7 @@
 .cardList {
   list-style-type: none;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(328px, 369px));
+  grid-template-columns: repeat(auto-fit, 369px);
   gap: 24px;
   justify-content: center;
 }
