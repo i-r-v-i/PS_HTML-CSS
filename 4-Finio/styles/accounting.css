@@ -1,0 +1,185 @@
+.accounting {
+  background-color: var(--bg-color-bright);
+}
+
+@media screen and (max-width: 1200px) {
+  .accounting {
+    padding: 0 40px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .accounting {
+    padding: 0 24px;
+  }
+}
+
+.accounting__container {
+  padding: 120px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 780px) {
+  .accounting__container {
+    padding: 64px 0;
+  }
+}
+
+.accounting__heading {
+  color: var(--text-color-light);
+  margin: 0 0 24px;
+}
+@media screen and (max-width: 780px) {
+  .accounting__heading {
+    font-size: 36px;
+    line-height: 43.2px;
+    text-align: left;
+  }
+}
+
+.accounting__description {
+  color: #ffffffcc;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 780px) {
+  .accounting__description {
+    margin-bottom: 32px;
+    text-align: left;
+  }
+}
+.accounting__btn {
+  width: 345px;
+  height: 48px;
+  border-radius: 34px;
+  margin-bottom: 64px;
+}
+
+@media screen and (max-width: 780px) {
+  .accounting__btn {
+    width: 328px;
+    margin-bottom: 48px;
+  }
+}
+
+.accounting-slider__wrapper {
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+@media screen and (max-width: 1200px) {
+  .accounting-slider__wrapper {
+    width: 656px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .accounting-slider__wrapper {
+    width: 328px;
+  }
+}
+
+.accounting-slider {
+  max-width: 598px;
+  width: 100%;
+  height: 640px;
+  background-repeat: no-repeat;
+  margin-bottom: 64px;
+}
+@media screen and (max-width: 1200px) {
+  .accounting-slider {
+    margin-bottom: 54px;
+    height: 364px;
+  }
+}
+@media screen and (max-width: 780px) {
+  .accounting-slider {
+    height: 182px;
+  }
+}
+.accounting-slider_left {
+  background-image: url(../assets/img/table_acc.png);
+  background-position: left;
+  flex-shrink: 1;
+}
+
+.accounting-slider_right {
+  background-image: url(../assets/img/report_acc.png);
+  background-position: -630px;
+  flex-shrink: 1;
+}
+
+@media screen and (max-width: 1200px) {
+  .accounting-slider_left {
+    background-size:contain;
+    background-position: left;
+  }
+  
+  .accounting-slider_right {
+    background-size: 205%;
+    background-position: right;
+  }
+}
+
+.accounting-slider__switcher {
+  background-image: url(../assets/svg/acc_str.svg);
+  width: 40px;
+  height: 640px;
+  background-position: center;
+  position: absolute;
+  z-index: 3;
+  left: 558px;
+}
+@media screen and (max-width: 1200px) {
+  .accounting-slider__switcher {
+    height: 364px;
+    left: 309px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .accounting-slider__switcher {
+    height: 182px;
+    left: 144px;
+  }
+}
+
+.comparison {
+  display: flex;
+  gap: 76px;
+}
+
+@media screen and (max-width: 1200px) {
+  .comparison {
+    gap: 48px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.comparison__list {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.8px;
+  color: var(--text-color-light);
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.comparison__item {
+  padding-left: 32px;
+}
+
+.excel__item {
+  background: url(../assets/svg/exclamation-circle-!.svg);
+  background-repeat: no-repeat;
+}
+
+.finio__item {
+  background: url(../assets/svg/check-circle.svg);
+  background-repeat: no-repeat;
+}

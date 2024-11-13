@@ -55,6 +55,12 @@
   line-height: 23.8px;
 }
 
+.text-m {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25.2px;
+}
+
 .text_title {
   text-align: center;
 }
@@ -109,8 +115,7 @@
 }
 
 .text_color-grey-60 {
-  color: #ffffff99; 
-
+  color: #ffffff99;
 }
 
 .mt-16 {
