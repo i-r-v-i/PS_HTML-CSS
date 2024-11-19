@@ -1,0 +1,146 @@
+.hero {
+  margin-bottom: 80px;
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+  background-color: var(--bg-color-bright);
+}
+
+.hero__wrapper {
+  max-width: 1920px;
+  margin: 0 auto;
+  background-color: var(--bg-color-bright);
+  padding: 73px 40px 140px;
+  position: relative;
+}
+
+@media screen and (max-width: 600px) {
+  .hero {
+    padding: 0;
+  }
+}
+
+.hero__container {
+  display: flex;
+  position: relative;
+  background-color: var(--bg-color-bright);
+}
+
+@media screen and (max-width: 1600px) {
+  .hero__container {
+    overflow: hidden;
+  }
+}
+
+.hero__text {
+  color: var(--text-color-light);
+  position: relative;
+}
+
+.hero__title {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 48px;
+  width: 430px;
+  margin-bottom: 40px;
+  z-index: 2;
+  position: relative;
+}
+@media screen and (max-width: 900px) {
+  .hero__title {
+    font-size: 32px;
+    line-height: 38.4px;
+    width: 100%;
+    max-width: 515px;
+  }
+}
+
+.hero__btn {
+  margin-bottom: 80px;
+  max-width: 345px;
+  width: 100%;
+  z-index: 2;
+  position: relative;
+}
+
+@media screen and (max-width: 900px) {
+  .hero__btn {
+    width: 328px;
+  }
+}
+
+.hero__img {
+  display: block;
+  width: 1039px;
+  height: 627px;
+  z-index: 8;
+  position: absolute;
+  right: -100px;
+  top: calc(-570px - 80px);
+}
+
+@media screen and (max-width: 900px) {
+  .hero__img {
+    display: none;
+  }
+}
+
+.hero__markets {
+  background-image: url(../assets/svg/markets.svg);
+  width: 333.89px;
+  height: 85px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 900px) {
+  .hero__markets {
+    width: 264px;
+    height: 67.21px;
+  }
+}
+.advantages__list {
+  list-style-type: none;
+  display: flex;
+  gap: 64px;
+}
+.advantage__item {
+  display: flex;
+  max-width: 408px;
+  align-items: center;
+  gap: 16px;
+}
+.advantages {
+  position: relative;
+  padding: 80px 0;
+  border-bottom: 1px solid #4E5D7C14;
+  ;
+}
+.advantage__icon {
+  width: 64px;
+  height: 64px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.analysis-icon {
+  background-image: url(../assets/svg/analisyz.svg);
+
+}
+
+.wb-icon {
+  background-image: url(../assets/svg/wb.svg);
+}
+
+.money-icon {
+  background-image: url(../assets/svg/money.svg);
+}
+
+.advantage__name {
+    width: 328px;
+    height: 58px;
+  
+font-size: 24px;
+font-weight: 700;
+line-height: 28.8px;
+
+    
+}
