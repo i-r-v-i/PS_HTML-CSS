@@ -98,20 +98,24 @@
 .button_blue {
   background: var(--bg-color-bright);
   color: var(--bg-color-light);
+  transition: all 0.5s ease-out;
 }
 
 .button_blue:hover {
   opacity: 0.8;
+  transition: all 0.5s ease-out;
 }
 
 .button_white {
   color: var(--text-color-bright);
   background: var(--bg-color-light);
+  transition: all 0.5s ease-out;
 }
 
 .button_white:hover {
   background: #ffffffcc;
   opacity: 1;
+  transition: all 0.5s ease-out;
 }
 
 .text_color-grey-60 {
@@ -137,10 +141,13 @@
 .link {
   text-decoration: none;
   cursor: pointer;
+  transition: all 0.5s ease-out;
 }
 
 .link:hover {
   color: var(--text-color-light);
+  opacity: 0.8;
+  transition: all 0.5s ease-out;
 }
 
 .link_footer {
@@ -165,6 +172,14 @@
   background-repeat: no-repeat;
   background-position: center;
   justify-self: end;
+  cursor: pointer;
+  transition: all 0.5s ease-out;
+}
+
+.burger:hover {
+  width: 35px;
+  height: 35px;
+  transition: all 0.5s ease-out;
 }
 
 @media screen and (max-width: 900px) {
@@ -179,7 +194,14 @@
   line-height: 50.4px;
   color: var(--bg-color-light);
   text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.5s ease-out;
 }
+.logo:hover {
+  opacity: 0.6;
+  transition: all 0.5s ease-out;
+}
+
 .logo_header {
   font-size: 24px;
   font-weight: 900;

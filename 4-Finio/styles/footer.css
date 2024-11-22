@@ -131,7 +131,7 @@
   gap: 8px;
 }
 
-.footer__author span {
+.footer__author a {
   color: #ffffff80;
 }
 

@@ -20,8 +20,14 @@
     max-width: 640px;
     grid-template-columns: minmax(327px, 1fr);
     grid-template-rows: min-content 279px;
-    padding: 0;
     gap: 0;
+  }
+
+  @media screen and (max-width: 640px) {
+    .support {
+      padding-left: 24px;
+      padding-right: 24px;
+    }
   }
 
   .support_img {
@@ -56,7 +62,7 @@
 .support__title {
   margin-bottom: 24px;
   text-align: left;
-  padding: 0 24px 0;
+  padding: 0;
 }
 
 .support__text-container {
@@ -65,23 +71,28 @@
   flex-direction: column;
   gap: 40px;
 }
+
 @media screen and (max-width: 480px) {
   .support__text-container {
     gap: 32px;
-    padding: 0 24px 0;
   }
 }
 .support__contacts {
   display: grid;
-  grid-template-columns: 32px auto;
   grid-template-rows: repeat(2, 32px) 23px;
   gap: 16px;
   align-items: center;
 }
-
+.contacts__item {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
 .contacts__icon {
+  display: block;
   width: 32px;
   height: 32px;
+  background-repeat: no-repeat;
 }
 .tg {
   background-image: url(../assets/svg/tg.svg);

@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="./styles/footer.css" />
   </head>
   <body>
+    <!-- header -->
     <header class="header">
       <div class="header__container section section_1392">
         <p class="logo logo_header">finio</p>
@@ -50,6 +51,7 @@
       <div class="line header__line"></div>
     </header>
     <main>
+      <!-- hero -->
       <section class="hero">
         <div class="hero__wrapper">
           <div class="hero__container section section_1392">
@@ -65,6 +67,7 @@
           </div>
         </div>
       </section>
+      <!-- advantages -->
       <section class="advantages section section_1392">
         <ul class="advantages__list">
           <li class="advantage__item">
@@ -88,6 +91,7 @@
           class="hero__img"
         />
       </section>
+      <!-- analysis -->
       <section class="analysis section section_1392">
         <article class="analysis__article cash-gaps">
           <img
@@ -142,6 +146,7 @@
           </div>
         </article>
       </section>
+      <!-- accounting -->
       <section class="accounting">
         <div class="accounting__container section section_1156">
           <h2 class="heading heading_h2 accounting__heading">
@@ -192,6 +197,7 @@
           </div>
         </div>
       </section>
+      <!-- security -->
       <section class="security section section_1392">
         <ul class="security__list">
           <li class="security__item">
@@ -219,6 +225,7 @@
           </li>
         </ul>
       </section>
+      <!-- mobile-version -->
       <section class="mobile-version section section_1156">
         <h2 class="heading heading_h2">Мобильная версия</h2>
         <p class="text text_title text_color-grey mobile-version__description">
@@ -231,6 +238,7 @@
           class="mobile-version__img"
         />
       </section>
+      <!-- support -->
       <section class="support section section_1392" id="support">
         <div class="support__foto">
           <img src="./assets/img/support_img.png" alt="" class="support_img" />
@@ -243,12 +251,21 @@
               по&nbsp;телефону.
             </p>
             <div class="support__contacts contacts">
-              <div class="contacts__icon tg"></div>
-              <div class="text">Telegram Finio</div>
-              <div class="contacts__icon whats"></div>
-              <div class="text">WhatsApp Finio</div>
-              <div class="contacts__icon email"></div>
-              <div class="text">hello@finio.ru</div>
+              <a class="text link text_color-light contacts__item" href="#">
+                <div class="contacts__icon tg"></div>
+                <span>Telegram Finio</span>
+              </a>
+              <a class="text link text_color-light contacts__item" href="#">
+                <div class="contacts__icon whats"></div>
+                <span>WhatsApp Finio</span>
+              </a>
+              <a
+                href="mailto:hello@finio.ru"
+                class="text link text_color-light contacts__item"
+              >
+                <div class="contacts__icon email"></div>
+                <span>hello@finio.ru</span>
+              </a>
             </div>
             <p class="text">
               Кроме того, мы&nbsp;готовы помочь вам с переносом данных из&nbsp;других
@@ -257,6 +274,7 @@
           </div>
         </div>
       </section>
+      <!-- tariffs -->
       <section class="tariffs section section_1156" id="tariffs">
         <h2 class="heading heading_h2">Тарифы</h2>
         <p class="text text_title text_color-grey tariffs__description">
@@ -339,6 +357,7 @@
           </li>
         </ul>
       </section>
+      <!-- feedback -->
       <section class="feedback section section_1156" id="feedback">
         <h2 class="heading heading_h2 feedback__title">Отзывы</h2>
         <div class="feedback-slider">
@@ -374,6 +393,7 @@
         </div>
       </section>
     </main>
+    <!-- footer -->
     <footer class="footer">
       <div class="footer__container section section_1392">
         <div class="footer__top">
@@ -405,10 +425,10 @@
               <a href="#" class="link link_footer">Пользовательское соглашение</a>
             </li>
             <li class="link-item text">
-              <a href="#" class="link link_footer"> Оплата и возврат</a>
+              <a href="#" class="link link_footer">Оплата и возврат</a>
             </li>
             <li class="link-item text">
-              <a href="#" class="link link_footer"> Договор оферта</a>
+              <a href="#" class="link link_footer">Договор оферта</a>
             </li>
           </ul>
           <div class="footer__column">
@@ -416,9 +436,25 @@
               ИП Ларичев Антон Андреевич
               <li class="link-item text">ИНН 773373765379</li>
               <li class="link-item text">ОГРИП 322774600208776</li>
-              <li class="link-item text">Эл. почта: <span>alarichev@gmail.com</span></li>
-              <li class="link-item text">Тел.: +7 (910) 435-75-92</li>
-              <li class="link-item text">Москва, Вилиса Лациса 25</li>
+              <li class="text">
+                Эл. почта:
+                <a class="link link-item" href="mailto:alarichev@gmail.com"
+                  >alarichev@gmail.com</a
+                >
+              </li>
+              <li class="text">
+                <a class="link link-item" href="tel:+79104357592"
+                  >Тел.: +7 (910) 435-75-92</a
+                >
+              </li>
+              <li class="text">
+                <a
+                  class="link link-item"
+                  href="https://maps.app.goo.gl/gpwPdCh4CZxz2Lz38"
+                  target="_blank"
+                  >Москва, Вилиса Лациса 25</a
+                >
+              </li>
             </ul>
           </div>
         </div>
