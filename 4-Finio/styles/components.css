@@ -101,8 +101,7 @@
 }
 
 .button_blue:hover {
-  background: rgb(80, 80, 217);
-  color: #ffffffcc;
+  opacity: 0.8;
 }
 
 .button_white {
@@ -111,8 +110,8 @@
 }
 
 .button_white:hover {
-  color: rgb(80, 80, 217);
   background: #ffffffcc;
+  opacity: 1;
 }
 
 .text_color-grey-60 {
