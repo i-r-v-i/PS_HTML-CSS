@@ -1,0 +1,152 @@
+.tariffs__description {
+  margin-top: 24px;
+  margin-bottom: 40px;
+}
+@media screen and (max-width: 900px) {
+  .tariffs__description {
+    margin-bottom: 32px;
+  }
+}
+.cardList {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 369px);
+  gap: 24px;
+  justify-content: center;
+}
+
+@media screen and (max-width: 900px) {
+  .cardList {
+    grid-template-columns: minmax(369px, 1fr);
+    margin: 0 150px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .cardList {
+    grid-template-columns: minmax(328px, 369px);
+    margin: 0;
+  }
+}
+
+.card {
+  box-shadow: 0px 0px 32px 0px #4e5d7c29;
+  background: var(--bg-color-light);
+  border-radius: 8px;
+  padding: 48px 40px;
+  display: grid;
+  grid-template-rows: 45px 54px 1fr 172px 48px;
+  max-height: 507px;
+}
+
+@media screen and (max-width: 900px) {
+  .card {
+    padding-left: 24px;
+    padding-right: 24px;
+    grid-template-rows: auto auto auto 158px 48px;
+  }
+}
+
+.card_brigth {
+  background: var(--bg-color-bright);
+  color: var(--text-color-light);
+}
+
+.benefit {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 21px;
+  width: 125px;
+  height: 29px;
+  background: #1abc9c;
+  color: var(--text-color-light);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+  .benefit {
+    margin-bottom: 20px;
+  }
+}
+
+.benefit_no {
+  visibility: hidden;
+}
+
+@media screen and (max-width: 900px) {
+  .benefit_no {
+    height: 0;
+    margin-bottom: 0;
+  }
+}
+
+.benefit span {
+  font-weight: 800;
+}
+
+.card__title {
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 38.4px;
+}
+
+@media screen and (max-width: 900px) {
+  .card__title {
+    margin-bottom: 16px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .card__description {
+    margin-bottom: 28px;
+  }
+}
+
+.card__price-container {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 20.4px;
+  color: #4e5d7c;
+}
+.card__price {
+  padding: 8px 0;
+}
+.card__price-container_bright {
+  color: var(--text-color-light);
+}
+
+.card__price-block {
+  display: inline-grid;
+  grid-template-columns: 170px auto;
+}
+
+@media screen and (max-width: 900px) {
+  .card__price-block {
+    display: grid;
+    grid-template-columns: minmax(170px, calc(100% - 110px)) max-content;
+    justify-items: start;
+  }
+}
+.card__sum {
+  background: none;
+  position: relative;
+  left: -16px;
+}
+.card__line {
+  border: 1px solid #4e5d7c14;
+  margin-bottom: 1;
+}
+.card__line_bright {
+  border: 1px solid #ffffff29;
+}
+
+.card__benefit {
+  padding: 8px 16px;
+  background: #ffc736;
+  border-radius: 8px;
+  display: inline;
+  width: auto;
+}

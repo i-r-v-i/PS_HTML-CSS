@@ -1,0 +1,32 @@
+:root {
+  --font-family: Inter, sans-serif;
+  --bg-color-light: #fff;
+  --bg-color-bright: #357efe;
+  --bg-color-dark: #1A1D25;
+  --text-color-light: #fff;
+  --text-color-dark: #000;
+  --text-color-grey: #4E5D7C80;
+  --text-color-bright: #357EFE;
+  }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+    background: var(--bg-color-light);
+    font-family: var(--font-family);
+}
+
+main {
+  padding-bottom: 80px;
+}
+
+@media screen and (max-width: 900px) {
+  main {
+    padding-bottom: 64px;
+  }
+}

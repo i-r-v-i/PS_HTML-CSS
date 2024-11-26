@@ -1,0 +1,137 @@
+.analysis {
+  padding: 0 40px;
+}
+@media screen and (max-width: 600px) {
+  .analysis {
+    padding: 0 24px;
+  }
+}
+.analysis__article {
+  display: flex;
+  gap: 63px;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+@media screen and (max-width: 1100px) {
+  .analysis__article {
+    gap: 32px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    align-items: flex-start;
+  }
+}
+
+.analysis__article:not(:last-child) {
+  border-bottom: 1px solid #4e5d7c14;
+}
+
+.analysis__article:nth-of-type(odd) {
+  flex-direction: row-reverse;
+  justify-content: right;
+}
+
+@media screen and (max-width: 1100px) {
+  .analysis__article:nth-of-type(odd) {
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  .analysis__article,
+  .analysis__article:nth-of-type(odd) {
+    flex-direction: column;
+  }
+}
+
+.cash-gaps__text-groop {
+  max-width: 482px;
+}
+.report__text-groop {
+  max-width: 550px;
+}
+
+.profit__text-groop {
+  max-width: 526px;
+}
+
+.table__text-groop {
+  max-width: 520px;
+}
+.analysis__title {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+@media screen and (max-width: 900px) {
+  .analysis__title {
+    font-size: 32px;
+    line-height: 38.4px;
+  }
+}
+
+.analysis__img {
+  object-fit: contain;
+  object-position: center;
+}
+
+@media screen and (max-width: 900px) {
+  .analysis__img {
+    object-position: left;
+  }
+}
+.cash-gaps__img {
+  max-width: 729px;
+  width: 100%;
+  height: 445.5px;
+}
+
+@media screen and (max-width: 460px) {
+  .cash-gaps__img {
+    position: relative;
+    left: -30px;
+    width: 356px;
+    height: 218px;
+  }
+}
+.report__img {
+  max-width: 644px;
+  width: 100%;
+  height: 444px;
+}
+
+@media screen and (max-width: 460px) {
+  .report__img {
+    width: 327px;
+    height: 226px;
+  }
+}
+
+.profit__img {
+  max-width: 641px;
+  width: 100%;
+  height: 416.7px;
+}
+@media screen and (max-width: 460px) {
+  .profit__img {
+    width: 327px;
+    height: 213px;
+  }
+}
+
+.table__img {
+  max-width: 750px;
+  width: 100%;
+  height: 372px;
+}
+
+@media screen and (max-width: 460px) {
+  .table__img {
+    width: 327px;
+    height: 189px;
+  }
+}
